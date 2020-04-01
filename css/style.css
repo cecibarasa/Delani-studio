@@ -28,6 +28,7 @@ body {
 }
 .h-text{
     font-family: 'Comfortaa', cursive;
+    top: 33%;
 }
 .smaller-text{
     font-family: 'Ubuntu Mono', monospace;
