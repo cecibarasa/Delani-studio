@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Poiret+One|Raleway|Ubuntu+Mono&display=swap');
 html {
     scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -17,6 +18,40 @@ body {
     padding: 0;
 }
 
+.logo{
+    padding: 20px;
+}
+
+.welcome{
+    color: white;
+    text-align: center;
+    padding: 300px;
+}
+
+.wel{
+    padding: 20px;
+}
+
+.services{
+    text-align: center;
+    color: white;
+    height: 20px;
+    margin-top: 20px;
+}
+.delani{
+    color: white;
+    text-align: center;
+}
+.smaller-text{
+    color: white;
+    text-align: center;
+}
+#about{
+    text-align: center;
+}
+.what-we-do{
+    text-align: center;
+}
 .overlay {
     background-color: rgba(0, 0, 0, 0.6);
     height: 668px;
@@ -107,6 +142,8 @@ figcaption{
 .contacts h1 {
     position: relative;
     top: 30px;
+    text-align: center;
+    color: white;
 }
 .text{
     margin-bottom: 20px;
@@ -123,12 +160,7 @@ figcaption{
 .input{
     margin-top: 30px;
 }
-.b-text{
-    font-family: 'Comfortaa', cursive;
-}
-.m-text{
-    font-family: 'Raleway', sans-serif;
-}
+
 .name{
     margin-right: 5px;
 }
@@ -168,7 +200,7 @@ input.error {
     width: auto;
     position: absolute;
     bottom: 0;
-    color: deepskyblue;
+    color: grey;
     text-align: center;
     font-weight: bold;
     font-size: 30px;
