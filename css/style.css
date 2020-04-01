@@ -1,0 +1,26 @@
+.back{
+    background-image: url("../assets/backgrounds/h_img.jpg");
+    text-align: center;
+    color: white;
+    height: 900px;
+    padding-top: 50px;
+    margin-top: 50ox;
+}
+.about{
+    text-align: center;
+}
+.services{
+    text-align: center;
+    background-image: url("../assets/backgrounds/s_image.jpg");
+    height: 300px;
+    color: white;
+    padding-top: 20px;
+}
+.design-hidden {
+    display: none;
+  }
+
+  .clickable {
+    cursor: pointer;
+    color: #0088cc;
+  }
