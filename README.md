@@ -21,4 +21,4 @@ The design practice offers a full range of services including brand strategy, in
 ## [Support and contact details](cecbarasa@gmail.com)
 {Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
 ### [License](https://github.com/cecibarasa/Delani-studio/blob/master/license.md)
-Copyright (c) {year} **{List of contributors or company name}**
+Copyright (c) 2020 **Cecilia Barasa**
