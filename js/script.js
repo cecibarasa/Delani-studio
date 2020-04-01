@@ -1,13 +1,21 @@
-//UserInterface Logic
 $(document).ready(function(){
-    $(".design-showing").click(function() {
-      $(".design-hidden").toggle();
-      $(".design-hidden").toggle();
+    $(".image-text").click(function(){
+        $(".image").toggle();
+        $(".text").toggle();
     });
-  });
+    });
+    
     $(document).ready(function(){
-    $(".design-hidden").click(function() {
-      $(".design-showing").toggle();
-      $(".design-hidden").toggle();
-    });
-  });
+        $(".image-text2").click(function(){
+            $(".image2").toggle();
+            $(".text2").toggle();
+        });
+        });
+    
+    $(document).ready(function(){
+        $(".image-text3").click(function(){
+            $(".image3").toggle();
+             $(".text3").toggle();
+            });
+            });
+    /*  */
