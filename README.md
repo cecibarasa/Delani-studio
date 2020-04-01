@@ -1,9 +1,9 @@
 # Delani Studio
-#### A company that offers interactive designs, product magement and development of technologies, {Date of current version
+#### A company that offers interactive designs, product magement and development of technologies, Current version : 2020
 #### By **Cecilia Barasa**
 ## Description
 The design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing. it includes a team of  engineers who are fluent in the latest enterprise, mobile and web development technologies. The development process allows for changes as business requirements evolve.
-## [Live Site](https://github.com/cecibarasa/Delani-studio)
+## [Live Site](https://cecibarasa.github.io/Delani-studio/)
 ## Screenshot
 ![](shot.png)
 ## Setup/Installation Requirements
@@ -19,6 +19,5 @@ The design practice offers a full range of services including brand strategy, in
 * JQUERY
 * MARKDOWN
 ## [Support and contact details](cecbarasa@gmail.com)
-{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
 ### [License](https://github.com/cecibarasa/Delani-studio/blob/master/license.md)
 Copyright (c) 2020 **Cecilia Barasa**
