@@ -1,10 +1,10 @@
 $(function () {
     let desp = $('#desp');
     let devp = $('#devp');
-    let prod = $('#prop');
-    let destxt = $('#destxt');
-    let devtxt = $('#devtxt');
-    let protxt = $('#protxt');
+    let prop = $('#prop');
+    let destext = $('#destxt');
+    let devtext = $('#devtext');
+    let protext = $('#protext');
 
     $(desp).hide();
     $(devp).hide();
@@ -14,35 +14,35 @@ $(function () {
     $('.des').on('click', function () {
         $('.des').slideUp('slow');
         $(desp).show(500);
-        $(destxt).animate({fontWeight:'bolder',fontSize:'30px'})
+        $(destext).animate({fontWeight:'bolder',fontSize:'30px'})
 
     });
     $('.dev').on('click', function () {
         $('.dev').slideUp('slow');
         $(devp).show(500);
-        $(devtxt).animate({fontWeight:'bolder',fontSize:'30px'})
+        $(devtext).animate({fontWeight:'bolder',fontSize:'30px'})
     });
     $('.pro').on('click', function () {
         $('.pro').slideUp('slow');
-        $(prod).show(500);
-        $(protxt).animate({fontWeight:'bolder',fontSize:'30px'})
+        $(prop).show(500);
+        $(protext).animate({fontWeight:'bolder',fontSize:'30px'})
     });
 
     //Hide paragraph content
-    $(desp, destxt).on('click', function () {
+    $(desp, destext).on('click', function () {
         $('.des').slideDown();
         $(desp).hide(500);
         $(destext).animate({fontWeight:'normal',fontSize:'16px'})
     });
-    $(devp, devtxt).on('click', function () {
+    $(devp, devtext).on('click', function () {
         $('.dev').slideDown();
         $(devp).hide(500);
         $(devtext).animate({fontWeight:'normal',fontSize:'16px'})
     });
     $(prop, protext).on('click', function () {
         $('.pro').slideDown();
-        $(prod).hide(500);
-        $(protxt).animate({fontWeight:'normal',fontSize:'16px'})
+        $(prop).hide(500);
+        $(protext).animate({fontWeight:'normal',fontSize:'16px'})
     })
 
     //Overlay images
@@ -62,7 +62,7 @@ $(function () {
             let message = $("textarea#message").val();
 
             if ($("input#name").val() && $("input#email").val()){
-                alert ("Hey " + name + ", Thanks for your feedback, we'll get back to you shortly...");
+                alert ("Hey " + name + ", Thanks for your feedback, we'll get back to you shortly...keep calm!");
             }
             else {
                 alert("Please provide your correct name and email!");
