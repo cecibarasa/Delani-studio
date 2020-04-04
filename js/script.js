@@ -30,8 +30,8 @@ $(function () {
 
     //Hide paragraph content
     $(design, destxt).on('click', function () {
-        $('.des').slideDown();
-        $(design).hide(500);
+        $('.des').slideToggle();
+        $(design).slideToggle(500);
         $(destxt).animate({fontWeight:'normal',fontSize:'16px'})
     });
     $(develop, devtxt).on('click', function () {
@@ -62,7 +62,7 @@ $(function () {
             let message = $("textarea#message").val();
 
             if ($("input#name").val() && $("input#email").val()){
-                alert ("Hey " + name + ", Thanks for your feedback, we'll get back to you shortly...keep calm!");
+                alert ("Hey " + name + ", Thanks for your feedback, we'll get back to you soon...We Got You!");
             }
             else {
                 alert("Please provide your correct name and email!");
