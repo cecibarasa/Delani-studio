@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa|Poiret+One|Raleway|Ubuntu+Mono&display=swap');
 html {
     scroll-behavior: smooth;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -46,9 +44,7 @@ body {
     color: white;
     text-align: center;
 }
-#about{
-    text-align: center;
-}
+
 .what-we-do{
     text-align: center;
 }
@@ -62,12 +58,9 @@ body {
     top: 33%;
 }
 .h-text{
-    font-family: 'Comfortaa', cursive;
     top: 33%;
 }
-.smaller-text{
-    font-family: 'Ubuntu Mono', monospace;
-}
+
 .overlay > img, .welcome {
     margin-bottom: 30px;
 }
@@ -99,6 +92,7 @@ body {
 
 .about {
     height: 250px;
+    text-align: center;
 }
 
 .about h1 {
