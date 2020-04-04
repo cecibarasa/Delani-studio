@@ -7,7 +7,7 @@ The design practice offers a full range of services including brand strategy, in
 ## Screenshot
 ![](shot.png)
 ## Setup/Installation Requirements
-* Google Chrome
+`* Google Chrome`
 ## Technologies Used
 * HTML
 * CSS
