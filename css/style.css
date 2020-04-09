@@ -2,32 +2,180 @@ html {
     box-sizing: border-box;
 }
 
-.jumbotron {
-    background-image: url("../assets/backgrounds/h_img.jpg");
-    height: 900px;
-    background-size: cover;
+body {
+    margin: 0;
+    padding: 0;
 }
 
-.overlay {
-    padding: 300px;
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    padding: 20px;
 }
 
 .welcome {
     color: white;
+    text-align: center;
+    padding: 250px;
 }
 
-.mouse_clck {
-    top: 30%;
+.wel {
+    padding: 20px;
+}
+
+.mouse {
+    padding: 50px;
+}
+
+.services {
+    text-align: center;
+    color: white;
+    height: 20px;
+    margin-top: 20px;
+}
+
+.delani {
+    color: white;
+    text-align: center;
+}
+
+.what-we-do {
+    text-align: center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 668px;
+}
+
+.jumbotron-fluid {
+    background-image: url("../assets/backgrounds/h_img.jpg");
+    background-size: cover;
+    height: 668px;
 }
 
 .about {
+    height: 250px;
     text-align: center;
 }
 
-.service {
-    text-align: center;
+.about h1 {
+    margin-top: 30px;
+}
+
+.services {
     background-image: url("../assets/backgrounds/s_image.jpg");
-    height: 300px;
+    height: 280px;
+}
+
+.services h1 {
+    position: relative;
+    top: 30px;
+    margin-bottom: 20px;
+}
+
+.what-we-do h1 {
+    margin-top: 30px;
+}
+
+figcaption {
+    margin-top: 20px;
+}
+
+.portfolio {
+    height: 500px;
+    padding-bottom: 50px;
+}
+
+.contacts {
+    background-image: url("../assets/backgrounds/c_image.jpg");
+    background-size: cover;
+}
+
+.contacts h1 {
+    position: relative;
+    top: 30px;
+    text-align: center;
     color: white;
-    padding: 20px;
+}
+
+.text {
+    margin-bottom: 20px;
+}
+
+.contact-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.form-control {
+    background-color: #66000000;
+    color: white;
+}
+
+.input {
+    margin-top: 30px;
+}
+
+.name {
+    margin-right: 5px;
+}
+
+.email {
+    margin-right: 5px;
+}
+
+.social {
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.p-img {
+    float: right;
+    position: relative;
+    margin: 5px;
+    color: #333;
+}
+
+.p-img .p-txt {
+    display: none;
+    opacity: 1;
+    background-color: gainsboro;
+    width: auto;
+    position: absolute;
+    bottom: 0;
+    color: grey;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 30px;
+    height: 100%;
+}
+
+textarea::placeholder {
+    color: #ffffff;
+}
+
+footer {
+    text-align: center;
+}
+
+#design {
+    display: none;
+}
+
+#develop {
+    display: none;
+}
+
+#product {
+    display: none;
 }
