@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+}
+
+.jumbotron {
+    background-image: url("../assets/backgrounds/h_img.jpg");
+    height: 900px;
+    background-size: cover;
+}
+
+.overlay {
+    padding: 300px;
+}
+
+.welcome {
+    color: white;
+}
+
+.mouse_clck {
+    top: 30%;
+}
+
+.about {
+    text-align: center;
+}
+
+.service {
+    text-align: center;
+    background-image: url("../assets/backgrounds/s_image.jpg");
+    height: 300px;
+    color: white;
+    padding: 20px;
+}
