@@ -23,11 +23,15 @@ body {
 .welcome{
     color: white;
     text-align: center;
-    padding: 300px;
+    padding: 250px;
 }
 
 .wel{
     padding: 20px;
+}
+
+.mouse{
+    padding: 30px;
 }
 
 .services{
