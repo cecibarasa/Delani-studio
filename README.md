@@ -7,14 +7,14 @@ The design practice offers a full range of services including brand strategy, in
 ## Screenshot
 ![](shot.png)
 ## Setup/Installation Requirements
-`* Google Chrome`
+* ` Google Chrome`
 ## Technologies Used
-*` HTML`
-*` CSS`
-*` JAVASCRIPT`
-*` BOOTSTRAP`
-*` JQUERY`
-*` MARKDOWN`
+* ` HTML`
+* ` CSS`
+* ` JAVASCRIPT`
+* ` BOOTSTRAP`
+* ` JQUERY`
+* ` MARKDOWN`
 ## [Support and contact details](cecbarasa@gmail.com)
 ### [License](https://github.com/cecibarasa/Delani-studio/blob/master/license.md)
 Copyright (c) 2020 **Cecilia Barasa**
