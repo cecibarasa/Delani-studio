@@ -15,6 +15,6 @@ The design practice offers a full range of services including brand strategy, in
 * ` BOOTSTRAP`
 * ` JQUERY`
 * ` MARKDOWN`
-## [Support and contact details](cecbarasa@gmail.com)
+## [Support and contact details](https://www.linkedin.com/in/cecilia-barasa-4a8311195/)
 ### [License](https://github.com/cecibarasa/Delani-studio/blob/master/license.md)
 Copyright (c) 2020 **Cecilia Barasa**
