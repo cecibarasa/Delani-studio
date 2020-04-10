@@ -3,43 +3,44 @@ $(function() {
     let develop = $('#develop');
     let product = $('#product');
 
-
     //Show paragraph content
-    $('.des').on('click', function() {
-        $('.des').slideToggle();
+    $('.design').on('click', function() {
+        $('.design').slideToggle();
         $(design).slideToggle();
 
     });
-    $('.dev').on('click', function() {
-        $('.dev').slideToggle();
+    $('.develop').on('click', function() {
+        $('.develop').slideToggle();
         $(develop).slideToggle();
     });
-    $('.pro').on('click', function() {
-        $('.pro').slideToggle('slow');
+    $('.product').on('click', function() {
+        $('.product').slideToggle('slow');
         $(product).slideToggle();
     });
 
     //Hide paragraph content
     $(design).on('click', function() {
-        $('.des').slideToggle();
+        $('.design').slideToggle();
         $(design).slideToggle();
     });
     $(develop).on('click', function() {
-        $('.dev').slideToggle();
+        $('.develop').slideToggle();
         $(develop).slideToggle();
     });
     $(product).on('click', function() {
-        $('.pro').slideToggle();
+        $('.product').slideToggle();
         $(product).slideToggle();
     })
 
     //Overlay images
 
     $('.p-img').hover(function() {
-        $('.p-txt').slideToggle('slow');
+        $('.p-txt', this).slideToggle('slow');
     }, function() {
-        $('.p-txt').slideToggle('slow');
+        $('.p-txt', this).slideToggle('slow');
+
     });
+
 
 
     //Form Validation
