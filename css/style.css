@@ -79,13 +79,10 @@ body {
     margin-top: 30px;
 }
 
-figcaption {
-    margin-top: 20px;
-}
-
 .portfolio {
     height: 500px;
     padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .contacts {
