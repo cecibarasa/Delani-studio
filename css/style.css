@@ -142,21 +142,24 @@ figcaption {
     position: relative;
     margin: 5px;
     color: #333;
+    opacity: 1;
 }
 
-.p-img .p-txt {
-    display: none;
-    opacity: 1;
-    background-color: gainsboro;
-    width: auto;
-    position: absolute;
-    bottom: 0;
-    color: #e69900;
+.p-txt {
+    border-style: solid;
+    border-color: white;
+    margin: 10px;
+    color: white;
     text-align: center;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 20px;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: auto;
     padding: 30px;
-    height: 100%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
 }
 
 textarea::placeholder {
