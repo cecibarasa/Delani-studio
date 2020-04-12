@@ -14,7 +14,7 @@ $(function() {
         $(develop).slideToggle();
     });
     $('.product').click(function() {
-        $('.product').slideToggle('slow');
+        $('.product').slideToggle();
         $(product).slideToggle();
     });
 
@@ -35,9 +35,9 @@ $(function() {
     //Overlay images
 
     $('.p-img').hover(function() {
-        $('.p-txt', this).slideToggle('slow');
+        $('.p-txt', this).slideToggle();
     }, function() {
-        $('.p-txt', this).slideToggle('slow');
+        $('.p-txt', this).slideToggle();
 
     });
 
