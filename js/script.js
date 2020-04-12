@@ -44,13 +44,13 @@ $(function() {
 
 
     //Form Validation
-    $("form#form").on('submit', function(event) {
+    $("#form").submit(function(event) {
         event.preventDefault();
-        let name = $("input#name").val();
-        let email = $("input#email").val();
-        let message = $("textarea#message").val();
+        let name = $("#name").val();
+        let email = $("#email").val();
+        let message = $("#message").val();
 
-        if ($("input#name").val() && $("input#email").val()) {
+        if ($("#name").val() && $("#email").val()) {
             alert("Hey " + name + ", Thanks for your feedback, we'll get back to you soon...We Got You!");
         } else {
             alert("Please provide your correct name and email!");

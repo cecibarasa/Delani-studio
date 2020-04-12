@@ -106,7 +106,7 @@ body {
 }
 
 .form-control {
-    background-color: #66000000;
+    background-color: #f0eeee00;
     color: white;
 }
 
@@ -116,10 +116,12 @@ body {
 
 .name {
     margin-right: 5px;
+    color: white;
 }
 
 .email {
     margin-right: 5px;
+    color: white;
 }
 
 .social {
@@ -129,16 +131,10 @@ body {
     margin-top: 40px;
 }
 
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-}
-
 .p-img {
     float: right;
     position: relative;
     margin: 5px;
-    color: #333;
     opacity: 1;
 }
 
@@ -160,7 +156,7 @@ body {
 }
 
 textarea::placeholder {
-    color: #ffffff;
+    color: white;
 }
 
 footer {
