@@ -1,5 +1,5 @@
 # Delani Studio
-#### A company that offers interactive designs, product magement and development of technologies, Current version : 2020
+#### A company that offers interactive designs, product magement and development of technologies, version : 2020
 #### By **Cecilia Barasa**
 ## Description
 The design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing. it includes a team of  engineers who are fluent in the latest enterprise, mobile and web development technologies. The development process allows for changes as business requirements evolve.
