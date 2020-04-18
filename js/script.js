@@ -55,9 +55,11 @@ $(function() {
         } else {
             alert("Please provide your correct name and email!");
         }
+        $('#form').each(function() {
+            this.reset();
+        });
+
 
     });
-
-
 
 });
