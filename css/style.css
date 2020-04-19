@@ -80,6 +80,7 @@ body {
 .container {
     padding-bottom: 50px;
     padding-top: 50px;
+    min-width: 50px;
 }
 
 .p-img {
