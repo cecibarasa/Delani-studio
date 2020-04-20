@@ -55,11 +55,11 @@ body {
 .jumbotron-fluid {
     background-image: url("../assets/backgrounds/h_img.jpg");
     background-size: cover;
-    height: 800px;
+    height: 850px;
 }
 
 .about {
-    height: 250px;
+    height: 300px;
     text-align: center;
 }
 
@@ -128,7 +128,6 @@ body {
 
 .form-control {
     background-color: #f0eeee00;
-    color: white;
 }
 
 .input {
